@@ -44,9 +44,9 @@ return [
             'throw' => false,
         ],
 
-        'company_logo' => [
+        'company_image' => [
             'driver' => 'local',
-            'root' => storage_path('app/company_logo')
+            'root' => storage_path('app/public/company/images')
         ],
 
         's3' => [

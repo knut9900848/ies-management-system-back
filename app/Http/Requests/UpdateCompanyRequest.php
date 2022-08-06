@@ -32,7 +32,7 @@ class UpdateCompanyRequest extends FormRequest
             'code' => [
                 'required',
                 'min:2',
-                'max:6',
+                'max:8',
                 'alpha_num',
                 Rule::unique('companies', 'code')->ignore($this->id),
             ],
